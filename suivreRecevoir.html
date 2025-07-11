@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <title>AfricTrans</title>
+            <link rel="icon" type="image/x-icon" href="/images/logo/favicon.ico">
+            <link rel="stylesheet" href="css/style.css">
+            <link rel="stylesheet" href="css/contacter.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        </head>
+        <body>
+            <header id="entete">
+                <div id="logo"><a href="index.html"><img src="images/logo/logo.jpg" alt="logo du site web"></a> AfricTrans
+                </div>
+
+                <div name="menu" id="menu">
+                    <ul>
+                        <il>
+                            <a href="index.html">Acceuil |</a>
+                        </il>
+                        <il>
+                            <a href="#">Envoyer de l'argent |</a>
+                        </il>
+                        <il>
+                            <a href="suivreRecevoir.html">Suivre et recevoir |</a>
+                        </il>
+                        <il>
+                            <a href="emploi.html">Rejoindre l'equipe |</a>
+                        </il>
+                        <il>
+                            <a href="contact.html">Contactez-nous </a>
+                        </il>
+                    </ul>
+                </div>       
+                <div id="langue">
+                    <form id="langues">
+                        <select id="langSelector">
+                            <option value="en">English</option>
+                            <option value="en">Francais</option>
+                            <option value="it">Italian</option>
+                            <option value="es">Espanol</option>
+                            <option value="de">Dutch</option>
+                            <option value="zh">Chinese</option>
+                        </select>
+                    </form>
+                </div>
+                
+
+                <!--
+                <div id="blocIdentification">
+                    <div class="btConnecter"><a href="#" id="seConnecter">Se connecter</a></div>  
+                    
+                    <div class="btInscrire"><a href="#">S'inscrire</a></div>
+                </div>
+                
+                -->
+            </header>
+
+                <div name="Bloc Principal" id="blocPrincipal">
+                    <div style="display : inline-block; text-align: center;width: 47%; height: 25em; margin-right: 3em;">
+                        <h1>Comment recevoir de l'argent <br>
+                            avec AfricTrans 
+                        </h1>
+                        <div style="display : inline-block; text-align: left">
+                            <h2>Avec AfricTrans, c'est facile de recevoir de l'argent.</h2>
+                                Un proche vous a envoyé de l’argent. Que devez-vous faire ensuite? <br> <br>
+                                L’argent a été envoyé directement sur votre compte bancaire ou portefeuille mobile. <br>
+                                Vous n'avez rien à faire. Les fonds arrivera automatiquement sur votre compte!<br>
+                                <br>
+                                L’argent est prêt à être récupéré à un comptoir <br>
+                                <br>
+                                Vous pouvez récupérer votre transfert d'argent auprès d'un agent AfricTrans près de chez vous au Canada. Pour en savoir plus sur la marche à suivre <br>
+                                pour récupérer votre argent en personne, suivez les quelques étapes ci-dessous.
+                        </div>
+                        
+                    </div>
+                    <div id="formReception">
+                        <div style="text-align: center;padding-top: 2em; font-size: 1.3em;">
+                            Saisissez les renseignements demandés ci-dessous <br>
+                            pour voir si votre argent est disponible.
+                        </div>
+                        
+                        <form id="suiviTransfert">
+                            <div style="padding-top: 2em; padding-left: 1em; font-size: 14px;">
+                                <label for="numRef">NUMERO DE REF. OU D'AUT.</label> <br>
+                                <input type="text" onfocus="focusFunction()" onblur="blurFunction()"  id="numRefs" name="numref" style=" width: 97%;
+                                padding: 10px 20px;
+                                margin: 4px 0;
+                                display: inline-block;
+                                border: 1px solid #ccc;
+                                border-radius: 4px;
+                                box-sizing: border-box;"  required> <br>
+                                <label for="nomFamille">VOTRE NOM DE FAMILLE</label> <br>
+                                <input type="text" onfocus="focusFunctionNom()" onblur="blurFunctionNom()" id="nomFamille" name="nomFamille" style=" width: 97%;
+                                padding: 10px 20px;
+                                margin: 4px 0;
+                                display: inline-block;
+                                border: 1px solid #ccc;
+                                border-radius: 4px;
+                                box-sizing: border-box;" required> <br>
+                                <input type="submit" value="Suivez votre argent" id="validationForm" style="width: 97%; 
+                                background-color:#ccc;;
+                                font-weight: bold;
+                                color: black;
+                                padding: 14px 20px;
+                                margin: 8px 0;
+                                border: none;
+                                border-radius: 4px;
+                                cursor: pointer;" disabled>
+
+                            </div>
+                            
+                        </form>
+                    </div>
+
+                </div>
+                
+                <footer >
+                    <div id="footImage"><a href="index.html"><img src="images/logo/logo.jpg" alt="logo du site web"></a>
+    
+                    
+                    </div>
+                    <div class="foot1">
+                        <h3>ENTREPRISE</h3>
+                        <!--<ul>
+                            <li>À propos</li>
+                            <li>Blogue</li>
+                            <li>Devenir agent</li>
+                            <li>Conversion de devises</li>
+                        </ul>-->
+                        <P>
+                            <a href="#">À propos</a> <BR> <BR>
+                            <a href="#">Blogue</a> <BR> <BR>
+                            <a href="#">Devenir agent</a> <BR> <BR>
+                            <a href="#">Conversion de devises</a>   
+    
+                        </P>
+    
+                    </div>
+                    <div class="foot1">
+                        <h3>SOUTIEN</h3>
+                        
+    
+                    <!-- <ul>
+                            <a href="#"><li>Politique de confidentialité</li></a>
+                            <a href="#"><li>Conditions d'utilisation</li></a>
+                            <a href="#"><li>Sensibilisation à la fraude</li></a>
+                            <a href="#"><li>Déclaration d'accessibilité</li></a>   
+                        </ul>-->
+                        <P>
+                            <a href="#">Politique de confidentialité</a> <BR> <BR>
+                            <a href="#">Conditions d'utilisation</a> <BR> <BR>
+                            <a href="#">Sensibilisation à la fraude</a> <BR> <BR>
+                            <a href="#">Déclaration d'accessibilité</a>   
+    
+                        </P>
+    
+                    </div>
+                    <div class="blocmediasocial">
+                        <h3>NOUS CONTACTER</h3>
+                        <ul id="mediaSocial">
+                            <li><a href="#"><i class="fa fa-instagram" style="font-size:36px"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook-f" style="font-size:36px"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin-square" style="font-size:36px"></i></a></li>
+                        </ul>
+                    </div>
+    
+                    <div  id="footerAuth">
+                        <p>AfricTrans Inc. © 2025 . Tous droits réservés</p>
+                    </div>
+                   
+                </footer>
+        </body>
+        <script src="js/validationReception.js"> </script>
+</html>

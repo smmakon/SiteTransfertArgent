@@ -1,0 +1,21 @@
+#blocPrincipal
+{
+    margin-left: 10em;
+    margin-bottom: 3em;
+}
+#moyenContacter
+{
+
+    display : inline-block;
+    width : 20%;
+    background-color: white;
+    color : black;
+    width: 25%;
+    border-radius: 8px;
+    padding-left : 8px;
+    border : 0.2px solid rgb(160, 147, 147); 
+    height : 6em;
+    box-shadow: 2px 2px 10px 10px rgb(160, 147, 147);
+    margin-left: 17em;
+    margin-bottom: 2em;
+}
