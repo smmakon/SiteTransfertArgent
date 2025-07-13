@@ -5,7 +5,7 @@ effectuer des transfert de sa carte de credit VISA vers les comptes wallet des b
 
 ### le lien vers le site est
 
-https://smmakon.github.io/SiteTransfertArgen
+https://smmakon.github.io/SiteTransfertArgent
 
 ## Menu  Acceuil 
 
